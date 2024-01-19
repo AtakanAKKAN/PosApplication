@@ -1,0 +1,7 @@
+.grid-custom-css {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.product-item-css {
+  @apply border hover:shadow-lg cursor-pointer transition-all duration-500 select-none rounded-lg overflow-hidden;
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  @apply md:pb-0 pb-[60px] bg-gray-50 max-w-[1500px] mx-auto ;
+}
+
+.ant-btn-primary {
+  background-color: #1677ff;
+}
+
+.categories::-webkit-scrollbar{
+  display: none;
+}
+
+.smooth-change{
+  @apply transition-all duration-1000;
+}
