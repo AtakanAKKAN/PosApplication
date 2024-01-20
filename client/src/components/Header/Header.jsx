@@ -37,7 +37,7 @@ const Header = ({ setSearch }) => {
         <div className="logo">
           <Link to="/">
             <h2 className="text-xl font-bold md:text-4xl smooth-change">
-              LOG
+              LOGO 
             </h2>{" "}
           </Link>
         </div>
